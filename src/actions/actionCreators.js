@@ -23,6 +23,6 @@ export function resetAnswers() {
 
 
 
-// questions uploaded to http://myjson.com/ to practice fetching from the web. Original json file found in /recourses/questions.json
+// questions uploaded to http://myjson.com/ to practice fetching from the web. Original json file found in /resourses/questions.json
 
 

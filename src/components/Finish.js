@@ -6,7 +6,6 @@ import "../styles/Finish.css";
 
 class Finish extends Component {
     componentWillMount() {
-    // checks if the user came through url
         if (this.props.answers.length === 0) {
             this.props.history.push("/");
         }
@@ -31,14 +30,14 @@ class Finish extends Component {
     }
 
     render() {
-    // gets the result based on correct answers length
+    // calcula el resultat basat en les respostes correctes
         let correctAnswers = this.props.answers.filter(answer => answer.value === true),
             result = Math.round(correctAnswers.length / this.props.answers.length * 100),
             wrongAnswers, questionList;
 
-        // filters wrong answers if there are any
+        // filtra les respostes equivocades, si n'hi han
         if (correctAnswers.length !== this.props.answers.length) {
-            wrongAnswers = this.props.answers.filter((answer, index) => answer.value === false);
+            wrongAnswers = this.props.answers.filter((answer) => answer.value === false);
         }
 
         if (wrongAnswers) {
@@ -59,7 +58,7 @@ class Finish extends Component {
 
         return (
             <div className="finish">
-                <button className="button" onClick={this.retry.bind(this)}>Try again</button>
+                <button className="button" onClick={this.retry.bind(this)}>Another try?</button>
                 <h2 className="finish__title">Finish!</h2>
                 <h3 className="finish__subtitle">Your result:</h3>
                 <div className="finish__result">{result}%</div>
