@@ -109,7 +109,6 @@
 
 .progress-bar {
   position: fixed;
-  right: 0;
   bottom: 10;
 }
 
@@ -131,7 +130,7 @@
   box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
   border-radius: 3px;
   align-content: center;
-  width: 60%;
+  width: 50%;
   margin-left: 250px;
   margin-right: 130px;
   height: 25px;
