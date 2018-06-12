@@ -88,11 +88,9 @@ class Quiz extends Component {
                             {this.renderOptions()}
                         </ul>
                     </div>
-                    <div>
-                        <div className="progress-bar-outside">
-                            <div className="progress-bar-inside"
-                                style={{width: `${percentage}%`}}>
-                            </div>
+                    <div className="progress-bar-outside">
+                        <div className="progress-bar-inside"
+                            style={{width: `${percentage}%`}}>
                         </div>
                     </div>
                 </div>
