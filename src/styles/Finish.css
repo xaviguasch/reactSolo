@@ -11,7 +11,7 @@
 }
 .finish__title
 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 25px;
@@ -21,14 +21,14 @@
   font-size: 25px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .finish__result
 {
   font-size: 34px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 15px;
 }
 .finish__questions-title
 {

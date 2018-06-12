@@ -24,13 +24,14 @@ class Quiz extends Component {
 
     componentDidMount() {
         this.toggleActiveClass();
+        
     }
 
     componentDidUpdate() {
         this.toggleActiveClass();
     }
 
-    // for animation purposes
+    // animació
     toggleActiveClass() {
         let wrapper = document.getElementById("quizContent");
         wrapper.classList.remove("active");
@@ -73,14 +74,27 @@ class Quiz extends Component {
     }
 
     render() {
+        let progressPerc = ((this.state.current) / (this.props.questions.length)) * 100;
+        let percentage = Math.floor(progressPerc);
+     
+
         return (
-            <div className="quiz">
-                <button className="button" onClick={this.retry.bind(this)}>Start Again?</button>
-                <div className="quiz-content" id="quizContent">
-                    <p className="quiz-question">{this.renderQuestion()}</p>
-                    <ul className="quiz-options">
-                        {this.renderOptions()}
-                    </ul>
+            <div>
+                <div className="quiz">
+                    <button className="button" onClick={this.retry.bind(this)}>Start Again?</button>
+                    <div className="quiz-content" id="quizContent">
+                        <p className="quiz-question">{this.renderQuestion()}</p>
+                        <ul className="quiz-options">
+                            {this.renderOptions()}
+                        </ul>
+                    </div>
+                    <div>
+                        <div className="progress-bar-outside">
+                            <div className="progress-bar-inside"
+                                style={{width: `${percentage}%`}}>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

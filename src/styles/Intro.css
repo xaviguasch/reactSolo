@@ -3,14 +3,30 @@
   padding-top: 10%;
   text-align: center;
   position: relative;
+
 }
 .intro__button
 {
+  margin-top: 50%;
   margin: 0 auto;
+  position: center;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  width: 25%
 }
 .intro__title
 {
-  font-size: 40px;
+  font-size: 50px;
+  color: #3A4E62;
   font-weight: 700;
-  margin-bottom: 20px;
+  font-family: Helvetica;
+  margin-bottom: 40px;
 }
+
+
+/*
+  color: #8B98A3;
+
+
+*/

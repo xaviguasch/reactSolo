@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "eslint-import-resolver-webpack": "^0.10.0",
+    "font-awesome": "^4.7.0",
     "react": "^15.6.2",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^15.6.2",
