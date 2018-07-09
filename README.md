@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://image.ibb.co/eKcSRo/Screen_Shot_2018_07_09_at_09_52_34.png" width="200px" />
+  <img src="https://image.ibb.co/eKcSRo/Screen_Shot_2018_07_09_at_09_52_34.png" width="1000px" />
 </p>
 
 
@@ -14,15 +14,15 @@ Check out a hosted version [here](https://xaviguasch.github.io/reactSolo).
 ## Screenshots
 
 <p align="center">
-  <img src="https://image.ibb.co/gQjAU8/Screen_Shot_2018_07_09_at_12_08_14.png" width="200px" />
+  <img src="https://image.ibb.co/gQjAU8/Screen_Shot_2018_07_09_at_12_08_14.png" width="1000px" />
 </p>
 
 <p align="center">
-  <img src="https://image.ibb.co/neQjp8/Screen_Shot_2018_07_09_at_12_09_18.png" width="200px" />
+  <img src="https://image.ibb.co/neQjp8/Screen_Shot_2018_07_09_at_12_09_18.png" width="1000px" />
 </p>
 
 <p align="center">
-  <img src="https://image.ibb.co/iJpPNT/Screen_Shot_2018_07_09_at_12_10_17.png" width="200px" />
+  <img src="https://image.ibb.co/iJpPNT/Screen_Shot_2018_07_09_at_12_10_17.png" width="1000px" />
 </p>
 
 
