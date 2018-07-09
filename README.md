@@ -14,10 +14,6 @@ Check out a hosted version [here](https://xaviguasch.github.io/reactSolo).
 ## Screenshots
 
 <p align="center">
-  <kbd><img src="https://image.ibb.co/gQjAU8/Screen_Shot_2018_07_09_at_12_08_14.png" width="1000px" /></kbd>
-</p>
-
-<p align="center">
   <kbd><img src="https://image.ibb.co/neQjp8/Screen_Shot_2018_07_09_at_12_09_18.png" width="1000px" /></kbd>
 </p>
 
